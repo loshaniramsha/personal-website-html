@@ -7,33 +7,52 @@
 <body>
 
 <!--Home Page-->
-<section>
-    <div>
-   <a href="#about">About</a>
-    <a href="#myProfile">MyProfile</a>
-    <a href="#education">Education</a>
-    <a href="#assingment">Assingment</a>
-    <a href="#skills">Skills</a>
-    <a href="#project">Project</a>
-    <a href="#contact">Contact</a>
-    </div>
-    <br>
-<!--Home page caption-->
-    <div>
+<header id="header">
+    <nav id="desktop">
+        <ul>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#myProfile">MyProfile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li> <a href="#assingment">Assingment</a></li>
+            <li> <a href="#skills">Skills</a></li>
+            <li> <a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav id="mobile">
+        <div>
+            <button id="toggle-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        </div>
+        <div>
+            <img src="assets/image/facebook.png"title="facebook" alt="facebook" width="20">
+            <img src="assets/image/linkdln.jpeg" title="linkdln" alt="linkdln" width="20">
+            <img src="assets/image/github.png" title="github" alt="github" width="20">
+            <img src="assets/image/twiter.png"title="twiter" alt="twiter" width="20">
+        </div>
+    </nav>
+</header>
+
+<!--Home Page-->
+<section id="home">
+    <!--Home page caption-->
+    <div id="homedetails">
         <h3><i>Hello it's me</i></h3>
         <h1>Loshani Ramsha</h1>
         <h5>I'm a Student</h5>
         <h3>undergraduate student in the software engineering degree program at the <b>ijse</b></h3>
     </div>
     <!--Home page photo-->
-    <div>
-      <img src="assets/image/HomePagePhoto.jpeg" title="MyPhoto" alt="MyPhoto" width="300">
+    <div id="home-image">
+        <img src="assets/image/HomePagePhoto.jpeg" title="MyPhoto" alt="MyPhoto" width="300">
     </div>
-    <div>
-        <img src="assets/image/facebook.png"title="facebook" alt="facebook" width="20">
+
+    <div id="home-social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa fa-bars" aria-hidden="true"></i>
+        <img src="assets/image/facebook.png" title="facebook" alt="facebook" width="20">
         <img src="assets/image/linkdln.jpeg" title="linkdln" alt="linkdln" width="20">
         <img src="assets/image/github.png" title="github" alt="github" width="20">
-        <img src="assets/image/twiter.png"title="twiter" alt="twiter" width="20">
+        <img src="assets/image/twiter.png" title="twiter" alt="twiter" width="20">
     </div>
 </section>
 <br>
