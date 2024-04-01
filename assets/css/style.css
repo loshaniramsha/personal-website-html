@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    position: relative;
+}
+#header #desktop{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+#header #desktop ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+#header #desktop ui li a{
+    text-decoration: none;
+}
+#header #mobile{
+    display: none;
+}
+@media (max-width:768px) {
+    #header #mobile{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    #header #desktop{
+        display: none;
+        position: absolute;
+        top: 100%;
+        background-color: black;
+        justify-content: center;
+    }
+    #header #desktop ul{
+        flex-direction: column;
+    }
+}
