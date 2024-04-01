@@ -103,11 +103,12 @@
 #header #desktop {
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
+    padding: 30px;
 }
 
 #header #desktop ul {
     display: flex;
+    position: fixed;
     flex-direction: row;
     align-items: center;
     gap: 20px;
@@ -150,7 +151,7 @@
     /* width: 100vw; */
     /* top rigth bottom left */
     /* (top & bottom) (r & l) */
-    padding: 0 50px;
+    padding: 10px 50px;
     height: 100vh;
     background-color: #00000067;
     display: flex;
