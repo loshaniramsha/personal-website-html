@@ -120,10 +120,164 @@
         flex-direction: column;
     }
 }
+
+/* home section */
+
 #home {
     /* width: 100vw; */
     /* top rigth bottom left */
     /* (top & bottom) (r & l) */
+    padding: 0px 50px;
+    padding-bottom: 10px;
+    padding-top: 10rem;
+    height: 87vh;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#home-image {
+    max-width: 450px;
+    width: 100%;
+
+
+}
+
+#home-social {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    /* justify-content: space-between;*/
+    justify-content: center;
+    gap: 20px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: #ececf3;
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgb(150, 150, 150, 0.8);
+    transition: all 0.3s ease-out;
+}
+
+.icon:hover {
+    width: 200px;
+    cursor: pointer;
+    align-items: center;
+    color: #ffffff;
+}
+
+.icon:hover i {
+    color: #ffffff;
+}
+
+.icon .fa-facebook-f {
+    color: #1a6ed8;
+}
+
+.facebook:hover {
+    background: #1a6ed8;
+}
+
+.icon .fa-linkedin-in {
+    color: #0077b5;
+}
+
+.linkedIn:hover {
+    background: #0077b5;
+}
+
+.icon .fa-github {
+    color: #000000;
+}
+
+.gitHub:hover {
+    background: #000000;
+}
+
+.icon .fa-twitter {
+    color: #000000;
+}
+
+.twitter:hover {
+    background: #1da1f2;
+}
+
+.icon .fa-instagram {
+    color: #f2003c;
+}
+
+.instagram:hover {
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+#home-details-text h1 {
+    font-size: 50px;
+    color: #f1c40f;
+    font-family: "Arial Black";
+
+}
+#home-details-text h3{
+    font-size: 40px;
+    color: #7c8888;
+}
+#home-details-text h5{
+    font-size: 30px;
+    color: #7c8888;
+}
+#home-details-text h2{
+    font-size: 40px;
+    color: #7c8888;
+}
+#home-details-text{
+    float: left;
+}
+
+@media (max-width: 768px) {
+    #home {
+        padding: 10px;
+        height: auto;
+    }
+
+    #home-social {
+        display: none;
+    }
+
+    #home-details {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    #home-details-text h1 {
+        font-size: 26px;
+
+    }
+}
+/*
+#home {
+    !* width: 100vw; *!
+    !* top rigth bottom left *!
+    !* (top & bottom) (r & l) *!
     padding: 10px 50px;
     height: 100vh;
     background-color: #00000067;
@@ -177,3 +331,4 @@
 
     }
 }
+*/
