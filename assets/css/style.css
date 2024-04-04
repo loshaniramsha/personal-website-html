@@ -258,5 +258,41 @@
     text-align: justify;
     padding: 3%;
     font-size: 25px;
-    color: #000000;
+    color: #505e5e;
+}
+.trapezoid {
+    position:absolute;
+    left: 0;
+    border-bottom: 700px solid #ffb400;
+    border-right: 150px solid transparent;
+    width: 400px;
+    transition: 0.5s;
+    z-index: -10;
+}
+
+.trapezoid-hide {
+    left: -400px;
+    transition: 0.5s;
+}
+@media (max-width: 768px) {
+    #About-page{
+        padding: 10px;
+        height: auto;
+    }
+    .about-page h1{
+        color: #ffb400;
+        font-size: 40px;
+        text-align: center;
+    }
+    .about-image{
+        align-items: center;
+    }
+    .about-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .about-details p{
+        font-size: 20px;
+    }
 }
