@@ -298,17 +298,18 @@
         font-size: 20px;
     }
 }
-.skill-section{
-    background-color: #1a6ed8;
-}
-/*
-#My-profile{
-   !* background-color:#ffffff ;*!
-    background-color: #1a6ed8;
-    padding: 10px 50px;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-}*/
+/*my profile section*/
+#My-profile #header-myprofile{
+    background-color: #ecf0f1;
+    width: 100%;
+    padding-top: 20px;
+    position: sticky;
+}
+#header-myprofile h1{
+    color: #ffb400;
+    /*text-align: center;*/
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
