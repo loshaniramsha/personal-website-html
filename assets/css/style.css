@@ -332,3 +332,54 @@
     font-size: 20px;
     text-align: center;
 }
+
+/*Education section*/
+
+#my-Education{
+    background-color:#ecf0f1;
+    display: flex;
+    flex-direction: column;
+}
+#education{
+    color: #ffb400;
+    font-size: 30px;
+    text-align: center;
+}
+#education span{
+    color: black;
+}
+
+#education-caption p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+#education-caption p span{
+    color: #ffb400;
+}
+
+#education-details{
+    display: flex;
+    /* justify-content: space-between;*/
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#education-details div{
+    background-color: rgba(124, 136, 136, 0.2);
+    width: 200px;
+    padding: 20px 15px;
+    text-align: center;
+    background-position: center;
+    font-size: 20px;
+    box-shadow: rgba(220, 220, 22, 0.05) 0px 6px 24px 0px, rgba(236, 236, 17, 1) 0px 0px 0px 1px;
+}
+@media(max-width: 768px){
+    #education-details{
+        display: block;
+    }
+    #education-details div{
+        margin: 10px auto;
+    }
+}
