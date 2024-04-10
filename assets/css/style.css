@@ -298,3 +298,17 @@
         font-size: 20px;
     }
 }
+.skill-section{
+    background-color: #1a6ed8;
+}
+/*
+#My-profile{
+   !* background-color:#ffffff ;*!
+    background-color: #1a6ed8;
+    padding: 10px 50px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}*/
