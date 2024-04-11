@@ -376,8 +376,13 @@
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 #education-details div:hover{
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(246, 206, 8, 0.49) 0px 15px 12px;
-    background-color:#ffb400 ;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgb(142, 149, 183) 0px 15px 12px;
+  /*  background-color: #eac482;*/
+    background-color: lightslategray;
+    color: white;
+}
+#education-details #link{
+    color: #ffb400;
 }
 
 @media(max-width: 768px){
