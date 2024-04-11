@@ -384,6 +384,12 @@
 #education-details #link{
     color: #ffb400;
 }
+#education-details #link1{
+    color: #ffb400;
+}
+#education-details #link2{
+    color: #ffb400;
+}
 
 @media(max-width: 768px){
     #education-details{
