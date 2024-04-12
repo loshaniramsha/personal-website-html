@@ -412,6 +412,7 @@
     font-size:30px;
     text-align: center;
 }
+/*
 #My-project #project span{
     color:  #505e5e;
 }
@@ -434,7 +435,7 @@
 }
 #project-details div:hover{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgb(142, 149, 183) 0px 15px 12px;
-    /*  background-color: #eac482;*/
+    !*  background-color: #eac482;*!
     background-color: lightslategray;
     color: white;
 }
@@ -446,4 +447,4 @@
     #project-details div{
         margin: 10px auto;
     }
-}
+}*/
