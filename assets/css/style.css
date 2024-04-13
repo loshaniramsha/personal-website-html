@@ -468,5 +468,69 @@
     }
 }
 
-/*Assingment Section*/
+
+/*Assingment*/
+#My-Assingment{
+    background-color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+}
+#My-Assingment #assingment{
+    font-size: 30px;
+    text-align: center;
+    color: #7c8888;
+}
+#My-Assingment #assingment span{
+    color: #ffb400;
+}
+#Assingment-content>div{
+    background-color: #ffb400;
+    color: white;
+    width: 800px;
+    height: 60px;
+    margin: 10px 0px;
+    margin-left: -192px;
+    cursor: pointer;
+
+    transition-duration: 1s;
+}
+
+#Assingment-content>div:hover{
+    margin-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgb(142, 149, 183) 0px 15px 12px;
+    background-color: lightslategray;
+    color: white;
+}
+#Assingment-content>div:hover::before{
+    margin-left: 100px;
+}
+#Assingment-content>div>h3{
+    font-size: 20px;
+    height: fit-content;
+    text-align: center;
+    top:0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+
+}
+#Assingment-content>div>h3>a{
+    color: #7c8888;
+}
+#Assingment-content>div>h3>a:hover{
+    color: black;
+}
+#Assingment-content>div>h3>a:hover::before{
+    color: black;
+}
+@media (max-width: 768px){
+    #Assingment-content>div{
+        width: 500px;
+        height: 50px;
+    }
+    #Assingment-content>div:hover {
+        margin-left: 9px;
+    }
+
+}
 
