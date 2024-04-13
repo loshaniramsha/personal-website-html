@@ -301,7 +301,7 @@
 
 /*my profile section*/
 #My-profile #header-myprofile{
-    background-color: #ecf0f1;
+    background-color:  #ffffff;
     width: 100%;
     padding-top: 20px;
     position: sticky;
@@ -317,7 +317,7 @@
 /*skill section*/
 
 #My-profile #My-skill{
-    background-color: #ecf0f1;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
 }
@@ -403,7 +403,7 @@
 /*project section*/
 
 #My-project{
-    background-color: #ecf0f1;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
 }
