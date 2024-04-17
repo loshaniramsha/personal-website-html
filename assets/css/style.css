@@ -550,9 +550,27 @@
     background-color:#ffffff;
     display: flex;
     flex-direction: column;
-    align-items: center;
+  /*  align-items: center;*/
     justify-content: center;
 }
+#contactme #contact-image>h1{
+    color: #f1c40f;
+    font-size: 40px;
+    text-align: left;
+}
+#contactme #contact-image{
+    align-items: flex-start;
+}
+#contactme #contact{
+    color: #7c8888;
+    font-size: 40px;
+}
+#contactme #contact-details>ul>li{
+    color: #f2003c;
+    font-size: 20px;
+}
+
+/*
 .trapezoid01 {
     position:absolute;
     left: 0;
@@ -572,7 +590,7 @@
     font-size: 40px;
     text-align: center;
     padding-top: 60px;
-   /* padding-top: 20px;*/
+   !* padding-top: 20px;*!
 }
 #contactme #contact-image h1{
     color:#ffb400;
@@ -586,4 +604,4 @@
     background-color: #f1c40f;
     text-align: center;
 
-}
+}*/
