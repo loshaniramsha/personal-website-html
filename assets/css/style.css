@@ -536,13 +536,6 @@
 
 /*footer*/
 #contactme{
-   /* padding: 0px 50px;
-    padding-bottom: 10px;
-    padding-top: 10rem;*/
-   /* height: 87vh;*/
-   /* height: 91vh;
-    background-color:#ffffff;
-    display: flex;*/
     padding: 0px 50px;
     padding-bottom: 10px;
     padding-top: 10rem;
@@ -550,13 +543,13 @@
     background-color:#ffffff;
     display: flex;
     flex-direction: column;
-  /*  align-items: center;*/
     justify-content: center;
 }
 #contactme #contact-image>h1{
     color: #f1c40f;
     font-size: 40px;
-    text-align: left;
+    text-align:center;
+
 }
 #contactme #contact-image{
     align-items: flex-start;
@@ -567,41 +560,17 @@
 }
 #contactme #contact-details>ul>li{
     color: #f2003c;
-    font-size: 20px;
-}
-
-/*
-.trapezoid01 {
-    position:absolute;
-    left: 0;
-    border-bottom: 700px solid #ffb400;
-    border-right: 150px solid transparent;
-    width: 1365px;
-    transition: 0.5s;
-    z-index: -10;
-}
-
-.trapezoid-hide {
-    left: -400px;
-    transition: 0.5s;
-}
-#contactme #contact{
-    color: #ffb400;
-    font-size: 40px;
-    text-align: center;
-    padding-top: 60px;
-   !* padding-top: 20px;*!
-}
-#contactme #contact-image h1{
-    color:#ffb400;
     font-size: 30px;
-    padding-top: 50px;
-}
-#contactme ul>li{
-    color: #1a6ed8;
+    padding-top: 10px;
 }
 #contactme #createBy{
     background-color: #f1c40f;
+    width: 300px;
     text-align: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
 
-}*/
