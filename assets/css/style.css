@@ -534,3 +534,56 @@
 
 }
 
+/*footer*/
+#contactme{
+   /* padding: 0px 50px;
+    padding-bottom: 10px;
+    padding-top: 10rem;*/
+   /* height: 87vh;*/
+   /* height: 91vh;
+    background-color:#ffffff;
+    display: flex;*/
+    padding: 0px 50px;
+    padding-bottom: 10px;
+    padding-top: 10rem;
+    height: 87vh;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.trapezoid01 {
+    position:absolute;
+    left: 0;
+    border-bottom: 700px solid #ffb400;
+    border-right: 150px solid transparent;
+    width: 1365px;
+    transition: 0.5s;
+    z-index: -10;
+}
+
+.trapezoid-hide {
+    left: -400px;
+    transition: 0.5s;
+}
+#contactme #contact{
+    color: #ffb400;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+   /* padding-top: 20px;*/
+}
+#contactme #contact-image h1{
+    color:#ffb400;
+    font-size: 30px;
+    padding-top: 50px;
+}
+#contactme ul>li{
+    color: #1a6ed8;
+}
+#contactme #createBy{
+    background-color: #f1c40f;
+    text-align: center;
+
+}
