@@ -78,20 +78,20 @@
     align-items: center;
     justify-content: center;
 }
-h1 {
-    text-align: center; /* Center the text horizontally */
-    animation: scaleText 2s ease-in-out infinite alternate; /* Apply animation */
+#losh {
+    animation: slideInFromLeft 1s ease-in-out forwards; /* Apply animation */
 }
 
-@keyframes scaleText {
+@keyframes slideInFromLeft {
     0% {
-        transform: scale(1); /* Start scale */
+        transform: translateX(-100%); /* Start off-screen to the left */
+        opacity: 0; /* Start with 0 opacity */
     }
     100% {
-        transform: scale(1.2); /* End scale */
+        transform: translateX(0); /* Move to the original position */
+        opacity: 1; /* End with full opacity */
     }
 }
-
 
 #home-details {
     display: flex;
@@ -605,6 +605,71 @@ h1 {
 }
 
 /*footer*/
+#contactme {
+
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-image {
+    text-align: center;
+    margin-top: 50px; /* Adjust margin as needed */
+}
+
+#contact-details,
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form {
+    margin-left: 20px; /* Add spacing between contact details and form */
+}
+
+#form input[type="text"],
+#form input[type="email"],
+#form input[type="button"] {
+    width: 300px; /* Adjust width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f2003c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-details h2 {
+    color: #f2003c;
+}
+
+#contact-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-details li {
+    margin-bottom: 10px;
+}
+
+#createBy {
+    text-align: center;
+    margin-top: 50px; /* Adjust margin as needed */
+}
+
+
+
+
+
+/*
 #contactme{
     padding: 0px 50px;
     padding-bottom: 10px;
@@ -645,5 +710,6 @@ h1 {
     margin: auto;
 
 }
+*/
 
 
