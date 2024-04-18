@@ -78,6 +78,20 @@
     align-items: center;
     justify-content: center;
 }
+h1 {
+    text-align: center; /* Center the text horizontally */
+    animation: scaleText 2s ease-in-out infinite alternate; /* Apply animation */
+}
+
+@keyframes scaleText {
+    0% {
+        transform: scale(1); /* Start scale */
+    }
+    100% {
+        transform: scale(1.2); /* End scale */
+    }
+}
+
 
 #home-details {
     display: flex;
