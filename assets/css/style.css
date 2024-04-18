@@ -381,6 +381,9 @@
     margin-bottom: 10px;
     animation: imageScale 1s ease-in-out infinite alternate;
 }
+/* Set the background color of the skill image container */
+
+
 #skill-image div:nth-child(odd) h4 {
     color: #ffb400; /* Apply styles to odd-numbered divs */
 }
