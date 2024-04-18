@@ -555,22 +555,25 @@
     align-items: flex-start;
 }
 #contactme #contact{
-    color: #7c8888;
+    color: #f1c40f;
     font-size: 40px;
 }
 #contactme #contact-details>ul>li{
-    color: #f2003c;
+    color: #7c8888;
     font-size: 30px;
     padding-top: 10px;
 }
 #contactme #createBy{
+    font-size: 20px;
     background-color: #f1c40f;
     width: 300px;
     text-align: center;
     top: 0px;
-    bottom: 0px;
+    bottom: 10px;
     left: 0px;
     right: 0px;
     margin: auto;
+
 }
+
 
