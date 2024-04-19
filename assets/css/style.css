@@ -362,26 +362,32 @@
     font-size: 20px;
     text-align: center;
 }
+
 #skill-image {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-    gap: 20px; /* Spacing between grid items */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
+/* Style for each skill item */
 #skill-image div {
-    margin-bottom: 50px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*padding: 30px;*/
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(229, 187, 7);
+
 }
 
+/* Style for skill images */
 #skill-image img {
     width: 100px;
     margin-bottom: 10px;
     animation: imageScale 1s ease-in-out infinite alternate;
 }
-/* Set the background color of the skill image container */
+
 
 
 #skill-image div:nth-child(odd) h4 {
