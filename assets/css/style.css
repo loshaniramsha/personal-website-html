@@ -554,7 +554,65 @@
 
 
 /*Assingment*/
-#My-Assingment{
+
+#assigment > h1 {
+    margin: 20px 0;
+    text-align: center;
+    font-family: Anek Bangla Bold, "Bell MT", serif;
+}
+
+#assigment .btn-assigment {
+    display: block;
+    align-self: center;
+    margin: 25px auto;
+    border: none;
+    padding: 10px 44px;
+    font-size: 24px;
+    width: 50%;
+    position: relative;
+    border-radius: 50px;
+    background-color: #d9d9d9;
+}
+
+#assigment .link-model-assigment {
+    /*color: #0a53be;*/
+    display: block;
+    font-size: 18px;
+}
+
+#assigment .btn-assigment::before {
+    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    width: 8%;
+    background: #f1c40f;
+}
+
+#assigment span {
+    color: #000000;
+    mix-blend-mode: darken;
+}
+
+#assigment .btn-assigment:hover::before {
+    width: 100%;
+}
+
+#assigment .modal-header {
+    background-color: #f1c40f;
+}
+
+#assigment .modal-content {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+/*#My-Assingment{
     background-color: #ecf0f1;
     display: flex;
     flex-direction: column;
@@ -616,7 +674,7 @@
         margin-left: 9px;
     }
 
-}
+}*/
 
 /*footer*/
 #contactme {
