@@ -359,6 +359,7 @@
 }
 #My-skill ol{
     margin-top: 20px;
+    margin-bottom: 20px;
     color: black;
     font-size: 20px;
     text-align: center;
@@ -377,9 +378,12 @@
     width: fit-content;
     height: fit-content;
     text-align: center;
-    box-shadow: 0 4px 8px rgb(229, 187, 7);
+    box-shadow: 0 4px 8px rgb(10, 10, 10);
     padding: 2rem;
 
+}
+#skill-image div:hover{
+    box-shadow: 0 4px 8px rgb(245, 180, 6);
 }
 
 /* Style for skill images */
