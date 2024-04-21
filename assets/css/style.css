@@ -571,7 +571,7 @@
     width: 50%;
     position: relative;
     border-radius: 50px;
-    background-color: #d9d9d9;
+    background-color: #ecf0f1;
 }
 
 #assigment .link-model-assigment {
@@ -593,6 +593,9 @@
 }
 
 #assigment span {
+   /* font-size: 30px;
+    text-align: center;
+    color: #7c8888;*/
     color: #000000;
     mix-blend-mode: darken;
 }
@@ -610,12 +613,13 @@
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+*#My-Assingment{
+    background-color: #ecf0f1;
+}
 
 /*#My-Assingment{
     background-color: #ecf0f1;
-    display: flex;
-    flex-direction: column;
+
 }
 #My-Assingment #assingment{
     font-size: 30px;
