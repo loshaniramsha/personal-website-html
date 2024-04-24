@@ -345,6 +345,69 @@
 
 /*skill section*/
 
+.skills{
+    background-color: #ffffff;
+}
+
+.skills #name-skill{
+    color: greenyellow;
+    font-size: 30px;
+    text-align: center;
+}
+.skills #name-skill>span{
+    color: #f1c40f;
+}
+
+.skills-title{
+    font-size: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+
+}
+
+.skills div h2{
+    color: #f2003c;
+}
+.skills div h1{
+    color: blue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+
+}
+
+.grid-item{
+    display: flex;!important;
+    align-items: center;
+    gap: .75rem;
+
+}
+
+.grid-item img{
+    width: 100px;
+}
+
+.item-text{
+    text-align: start;
+}
+.grid-item:hover{
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+/*
+
 #My-profile #My-skill{
     background-color: #ffffff;
     display: flex;
@@ -372,7 +435,7 @@
     gap: 20px;
 }
 
-/* Style for each skill item */
+!* Style for each skill item *!
 #skill-image div {
     background-color: #f1f1f1;
     border-radius: 10px;
@@ -387,7 +450,7 @@
     box-shadow: 0 4px 8px rgb(245, 180, 6);
 }
 
-/* Style for skill images */
+!* Style for skill images *!
 #skill-image img {
     width: 100px;
     margin-bottom: 10px;
@@ -397,11 +460,11 @@
 
 
 #skill-image div:nth-child(odd) h4 {
-    color: #ffb400; /* Apply styles to odd-numbered divs */
+    color: #ffb400; !* Apply styles to odd-numbered divs *!
 }
 
 #skill-image div:nth-child(even) h4 {
-    color:#505e5e; /* Apply styles to even-numbered divs */
+    color:#505e5e; !* Apply styles to even-numbered divs *!
 }
 
 
@@ -417,6 +480,7 @@
     }
 }
 
+*/
 
 
 /*Education section*/
@@ -593,7 +657,7 @@
 .color-box {
     width: 3vw;
     height: 6vh;
-    background-color: yellow;
+    background-color: #ffb400;
     border-radius: 10rem;
 }
 
