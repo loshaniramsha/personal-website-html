@@ -646,7 +646,7 @@
     height: fit-content;
     padding: 2rem;
     text-align: center;
-    background-color: #f2003c;
+    background-color: #ecf0f1;
 }
 
 .assignment-container {
@@ -837,12 +837,7 @@
     text-align: center;
     margin-top: 50px; /* Adjust margin as needed */
 }
-#home ,#My-skill, #My-project, #contactme{
-    background-color:red;
-}
-#About-page,#my-Education,#assigment .btn-assigment{
-    background-color: #ecf0f1;
-}
+
 
 
 
