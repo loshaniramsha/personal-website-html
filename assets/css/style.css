@@ -664,6 +664,13 @@
     background-color: rgb(128, 128, 128);
     color: white;
     border-radius: 10rem;
+    font-size: 15px;
+    text-align: center;
+
+}
+.assignment-box>h2>a{
+    color: black;
+    font-size: 15px;
 }
 
 .color-box {
