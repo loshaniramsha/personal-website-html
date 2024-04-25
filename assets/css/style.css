@@ -382,6 +382,11 @@
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 2rem;
     padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 
 }
 
@@ -402,6 +407,10 @@
 .grid-item:hover{
     scale: 1.1;
     transition: 0.5s ease-in-out;
+}
+.scale-up {
+    transform: scale(1.1); /* Scale the item up */
+    transition: transform 0.5s ease-in-out; /* Add transition effect */
 }
 
 
@@ -592,6 +601,9 @@
     color: white;
     background-color: lightslategray;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgb(142, 149, 183) 0px 15px 12px;
+    transform: scale(1.1); /* Scale the item up */
+    transition: transform 0.5s ease-in-out;
+
 }
 
 .project-card .title {
@@ -681,6 +693,8 @@
     }
 
 }
+
+
 
 
 /*#My-Assingment{
