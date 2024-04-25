@@ -432,8 +432,19 @@
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust column width for smaller screens */
     }
 }
-
-
+.skills:hover {
+    animation: fadeIn 2s ease-in-out forwards; /* Apply animation */
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%); /* Start off-screen to the left */
+        opacity: 0; /* Start with 0 opacity */
+    }
+    100% {
+        transform: translateX(0); /* Move to the original position */
+        opacity: 1; /* End with full opacity */
+    }
+}
 
 /*Education section*/
 
