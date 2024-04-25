@@ -630,7 +630,16 @@
     }
 
 }
+@media screen and (max-width: 768px) {
+    .assignment-box {
+        width: 80%; /* Adjust width for smaller screens */
+    }
 
+    .color-box {
+        width: 80px; /* Adjust width for smaller screens */
+        height: 45px; /* Adjust height for smaller screens */
+    }
+}
 
 
 /*footer*/
