@@ -414,83 +414,12 @@
     transition: transform 0.5s ease-in-out; /* Add transition effect */
 }
 
-
-
-/*
-
-#My-profile #My-skill{
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    padding: 10px 50px;
-    height: 87vh;
-}
-#My-skill h1{
-    color: #ffb400;
-    font-size: 40px;
-    font-style: italic;
-    text-align: center;
-}
-#My-skill ol{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: black;
-    font-size: 20px;
-    text-align: center;
-}
-
-#skill-image {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 20px;
-}
-
-!* Style for each skill item *!
-#skill-image div {
-    background-color: #f1f1f1;
-    border-radius: 10px;
-    width: fit-content;
-    height: fit-content;
-    text-align: center;
-    box-shadow: 0 4px 8px rgb(10, 10, 10);
-    padding: 2rem;
-
-}
-#skill-image div:hover{
-    box-shadow: 0 4px 8px rgb(245, 180, 6);
-}
-
-!* Style for skill images *!
-#skill-image img {
-    width: 100px;
-    margin-bottom: 10px;
-    animation: imageScale 1s ease-in-out infinite alternate;
-}
-
-
-
-#skill-image div:nth-child(odd) h4 {
-    color: #ffb400; !* Apply styles to odd-numbered divs *!
-}
-
-#skill-image div:nth-child(even) h4 {
-    color:#505e5e; !* Apply styles to even-numbered divs *!
-}
-
-
-@keyframes imageScale {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(1);
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust column width for smaller screens */
     }
 }
 
-*/
 
 
 /*Education section*/
@@ -538,17 +467,17 @@
 #education-details div:hover{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgb(142, 149, 183) 0px 15px 12px;
   /*  background-color: #eac482;*/
-    background-color: lightslategray;
+    background-color: #ffb400;
     color: white;
 }
 #education-details #link{
-    color: #ffb400;
+    color: lightslategray;
 }
 #education-details #link1{
-    color: #ffb400;
+    color: lightslategray;
 }
 #education-details #link2{
-    color: #ffb400;
+    color:lightslategray;
 }
 
 @media(max-width: 768px){
@@ -704,70 +633,6 @@
 
 
 
-
-/*#My-Assingment{
-    background-color: #ecf0f1;
-
-}
-#My-Assingment #assingment{
-    font-size: 30px;
-    text-align: center;
-    color: #7c8888;
-}
-#My-Assingment #assingment span{
-    color: #ffb400;
-}
-#Assingment-content>div{
-    background-color: #ffb400;
-    color: white;
-    width: 800px;
-    height: 60px;
-    margin: 10px 0px;
-    margin-left: -192px;
-    cursor: pointer;
-
-    transition-duration: 1s;
-}
-
-#Assingment-content>div:hover{
-    margin-left: 100px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgb(142, 149, 183) 0px 15px 12px;
-    background-color: lightslategray;
-    color: white;
-}
-#Assingment-content>div:hover::before{
-    margin-left: 100px;
-}
-#Assingment-content>div>h3{
-    font-size: 20px;
-    height: fit-content;
-    text-align: center;
-    top:0;
-    bottom: 0;
-    left: 20px;
-    margin: auto;
-
-}
-#Assingment-content>div>h3>a{
-    color: #7c8888;
-}
-#Assingment-content>div>h3>a:hover{
-    color: black;
-}
-#Assingment-content>div>h3>a:hover::before{
-    color: black;
-}
-@media (max-width: 768px){
-    #Assingment-content>div{
-        width: 500px;
-        height: 50px;
-    }
-    #Assingment-content>div:hover {
-        margin-left: 9px;
-    }
-
-}*/
-
 /*footer*/
 #contactme {
 
@@ -781,6 +646,10 @@
     width: 300px;
     text-align: center;
     margin-top: 50px; /* Adjust margin as needed */
+}
+#contact-image>h1{
+    color:  #ffb400;
+    font-size: 30px;
 }
 
 #contact-details,
@@ -804,10 +673,15 @@
 #form input[type="text"],
 #form input[type="email"],
 #form input[type="button"] {
-    width: 300px; /* Adjust width as needed */
+    width: 500px; /* Adjust width as needed */
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
+
+}
+
+#form #feedback{
+    height: 100px;
 
 }
 
@@ -822,7 +696,8 @@
 }
 
 #contact-details h2 {
-    color: #f2003c;
+    color: #ffb400;
+    padding-bottom: 5px;
 }
 
 #contact-details ul {
