@@ -350,12 +350,12 @@
 }
 
 .skills #name-skill{
-    color: greenyellow;
-    font-size: 30px;
+    color:#505e5e;
     text-align: center;
+    font-size: 40px;
 }
 .skills #name-skill>span{
-    color: #f1c40f;
+    color: #ffb400;
 }
 
 .skills-title{
@@ -368,13 +368,14 @@
     text-align: center;
     margin-top: 3rem;
 
+
 }
 
 .skills div h2{
-    color: #f2003c;
+    color: #ffb400;
 }
 .skills div h1{
-    color: blue;
+    color: #505e5e;
 }
 
 .grid {
@@ -393,7 +394,7 @@
 .grid-item{
     display: flex;!important;
     align-items: center;
-    gap: .75rem;
+    gap: .50rem;
 
 }
 
@@ -599,7 +600,7 @@
 }
 .project-card:hover{
     color: white;
-    background-color: lightslategray;
+    background-color: #ffb400;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgb(142, 149, 183) 0px 15px 12px;
     transform: scale(1.1); /* Scale the item up */
     transition: transform 0.5s ease-in-out;
@@ -638,7 +639,7 @@
     padding-bottom: 10px;
 }
 .assignments #assingment-name>h1>span{
-    color: white;
+    color:  #505e5e;
 }
 .assignments {
     display: block;
@@ -661,8 +662,8 @@
     position: relative;
     width: 50vw;
     height: 6vh;
-    background-color: rgb(128, 128, 128);
-    color: white;
+    background-color: #ffffff;
+    color: #505e5e;
     border-radius: 10rem;
     font-size: 15px;
     text-align: center;
