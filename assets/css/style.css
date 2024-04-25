@@ -34,7 +34,7 @@
 #header #desktop ul li a {
     text-decoration: none;
     color: #f1c40f;
-    font-style: oblique;
+   /* font-style: oblique;*/
 
 }
 
@@ -105,7 +105,7 @@
     width: 100%;
 }
 #home-image img{
-    border-radius: 10%;
+    /*border-radius: 10%;*/
 }
 #home-image img {
     animation: fadeIn 2s ease-in-out forwards; /* Apply animation */
