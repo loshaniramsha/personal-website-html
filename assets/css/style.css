@@ -8,7 +8,7 @@
 
 #header {
     position: fixed;
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     z-index: 1000;
 
@@ -34,6 +34,7 @@
 #header #desktop ul li a {
     text-decoration: none;
     color: #f1c40f;
+    font-size: 20px;
    /* font-style: oblique;*/
 
 }
