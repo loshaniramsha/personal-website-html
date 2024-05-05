@@ -8,7 +8,7 @@
 
 #header {
     position: fixed;
-    background-color: #000000;
+    background-color: rgb(12, 12, 12);
     width: 100%;
     z-index: 1000;
 
@@ -37,6 +37,15 @@
    /* font-style: oblique;*/
 
 }
+#header #desktop ul li a:hover{
+    color: #f1ecec;
+    font-style: oblique;
+    font-size: 25px;
+}
+#header:hover {
+    background-color: rgb(232, 168, 8); /* Change to the desired background color */
+}
+
 
 #header #mobile {
     display: none;
@@ -46,7 +55,7 @@
     #header #mobile {
         display: flex;
         justify-content: space-between;
-        padding: 10px;
+        padding: 0px;
     }
 
     #header #desktop {
@@ -66,9 +75,6 @@
 /* home section */
 
 #home {
-    /* width: 100vw; */
-    /* top rigth bottom left */
-    /* (top & bottom) (r & l) */
     padding: 0px 50px;
     padding-bottom: 10px;
     padding-top: 10rem;
@@ -79,30 +85,6 @@
     align-items: center;
     justify-content: center;
 }
-/*
-
-.resume_button {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #f1c40f; !* Change to desired background color *!
-    color: #ffffff;
-    border-radius: 20px;
-    transition: background-color 0.3s ease;
-}
-
-.resume_button:hover {
-    background-color: #e67e22; !* Change to desired hover background color *!
-}
-
-.resume_button i {
-    margin-right: 10px;
-}
-
-.resume_button span {
-    font-weight: bold;
-}
-*/
 
 .home_action {
     position: absolute;
@@ -294,8 +276,13 @@
     }
 
     #home-details-text h1 {
-        font-size: 26px;
+        font-size: 25px;
 
+    }
+    #home-image img{
+        padding-top: 88px;
+        max-width: 400px;
+        width: 100%;
     }
 }
 /*About section*/
@@ -307,6 +294,8 @@
     flex-direction: column;
     justify-content: center;
 }
+
+
 
 .about-page h1{
     margin-top: 1rem;
@@ -332,6 +321,7 @@
 #About-page:hover {
     animation: fadeIn 2s ease-in-out forwards; /* Apply animation */
 }
+
 
 @keyframes fadeIn {
     0% {
@@ -393,6 +383,12 @@
     }
     .about-details p{
         font-size: 20px;
+    }
+    .trapezoid {
+        border-bottom: 900px solid #ffb400;
+    }
+    .about-details span{
+        color: #f1ecec;
     }
 }
 
@@ -802,6 +798,7 @@
     text-align: center;
     margin-top: 50px; /* Adjust margin as needed */
 }
+
 
 
 
