@@ -44,7 +44,7 @@
     font-size: 25px;
 }
 #header:hover {
-    background-color: rgb(232, 168, 8); /* Change to the desired background color */
+    background-color: rgb(0, 0, 0); /* Change to the desired background color */
 }
 
 
@@ -284,6 +284,12 @@
         padding-top: 88px;
         max-width: 400px;
         width: 100%;
+    }
+    .resume_button{
+    background-color: #505e5e;
+        color: black;
+        padding: 10px 20px;
+       transform: translate(50%);
     }
 }
 /*About section*/
