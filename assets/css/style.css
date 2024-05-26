@@ -260,6 +260,7 @@
     float: left;
 }
 
+/*@media (max-width: 1600px) and (min-width: 720px) {*/
 @media (max-width: 768px) {
     #home {
         padding: 10px;
@@ -808,8 +809,38 @@
     margin-top: 50px; /* Adjust margin as needed */
 }
 
+.assignment-box a i {
+    transition: width 0.3s ease-in-out;
+}
+
+.assignment-box a i:hover {
+    width: 24px; /* Adjust the width to your desired value */
+}
+.assignment-box a i {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.assignment-box a i:hover {
+    transform: scale(1.2) rotate(10deg); /* Adjust the scale and rotation values to your desired effect */
+}
+.assignment-box a i {
+    width: 30px;
+    color: lightslategray; /* Set the icon color to red */
+    display: inline-block;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
 
 
+.assignment-box a i:hover {
+    transform: scale(1.2) rotate(10deg); /* Adjust the scale and rotation values to your desired effect */
+}
 
+.assignment-box a i {
+    width: 30px;
+    color: lightslategray; /* Set the icon color to lightslategray */
+    display: inline-block;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
 
 
