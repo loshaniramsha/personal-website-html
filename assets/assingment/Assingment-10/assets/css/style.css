@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Added a background color for better contrast */
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Darkened background color for the calculator */
+    border-radius: 15px;
+    max-width: 400px; /* Reduced max-width for better fit on smaller screens */
+}
+
+#display {
+    width: calc(100% - 40px); /* Adjusted width to accommodate padding */
+    padding: 20px;
+    text-align: right; /* Aligned text to the right for display */
+    border: none;
+    background-color: #444; /* Slightly lighter background color for the display */
+    color: white;
+    font-size: 24px; /* Reduced font size for better fit */
+}
+
+button {
+    width: 60px; /* Reduced button width for better spacing */
+    height: 60px; /* Reduced button height for better spacing */
+    border-radius: 50%; /* Made buttons circular */
+    border: none;
+    background-color: #555; /* Darkened button background color */
+    color: white;
+    font-size: 24px; /* Reduced font size for better fit */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+button:hover {
+    box-shadow: #ffffff 0 0 10px;
+    background-color: #666; /* Darkened button background color on hover */
+}
+
+button:active {
+    background-color: rgba(240, 240, 240, 0);
+    color: rgba(255, 0, 0, 0.51);
+}
+.operator-btn{
+    background-color: #e78c04;
+}
+
+@media only screen and (max-width: 600px) {
+    #calculator {
+        max-width: 300px; /* Reduce max-width for smaller screens */
+    }
+
+    #display {
+        padding: 10px; /* Reduce padding for smaller screens */
+        font-size: 20px; /* Reduce font size for smaller screens */
+    }
+
+    button {
+        width: 50px; /* Reduce button width for smaller screens */
+        height: 50px; /* Reduce button height for smaller screens */
+        font-size: 20px; /* Reduce font size for smaller screens */
+    }
+}
+body{
+    background-color: #debc13;
+}
