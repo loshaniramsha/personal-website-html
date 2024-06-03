@@ -1,0 +1,94 @@
+#nav-bar-section #nav-bar{
+    background-color: red;
+}
+#section1 #section1-div{
+    width: 87vw;
+    height: 100vh;
+    background-color: #7a418a;
+}
+.card-body{
+   /* background-color: #1b521a;*/
+    background-color: #2D333D;
+}
+.card-body2{
+    background-color: #7a418a;
+}
+.text-customer{
+    color: #f1ecec;
+    font-size: 40px;
+}
+.modal-header{
+    background-color: #1b521a;
+    color: white;
+}
+#order-text{
+    color: #f1ecec;
+    text-align: center;
+}
+.table{
+    margin-left: 6rem;
+}
+
+#invoice{
+    color: black;
+
+}
+label{
+    color: black;
+    font-style: oblique;
+    font-size: 15px;
+}
+#all-orders{
+    width: 200px;
+    height: 40px;
+    margin-top: 70px;
+    margin-right: 50px;
+}
+.table{
+    margin-left: 0;
+}
+#tbl-order{
+    margin-left: 100px;
+}
+
+
+
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2D333D; /* Dark background color */
+    color: #FFFFFF; /* White text color */
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 4rem; /* Large font size */
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px; /* Slight letter spacing for a modern look */
+    text-transform: uppercase; /* Uppercase text */
+    border-bottom: 2px solid #fad106; /* Accent color for bottom border */
+    display: inline-block;
+    padding-bottom: 10px; /* Padding at the bottom for better spacing */
+}
+
+#home h2{
+    padding-top: 150px;
+
+}
+
+#home-text {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
