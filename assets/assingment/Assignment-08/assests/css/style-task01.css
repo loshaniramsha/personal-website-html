@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+section{
+    position: relative;
+    width: 570px;
+    margin: auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.box{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    width: 40px;
+
+}
+
+#val7,#val8{
+    background-color: white;
+}
+
+#val6{
+    position: absolute;
+    right: 0;
+}
+
+

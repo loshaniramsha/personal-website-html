@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.box{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    height: 120px;
+}
+
+.box h1{
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
