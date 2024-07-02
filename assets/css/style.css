@@ -154,7 +154,7 @@
     border-radius: 10%;*/
 }
 #home:hover {
-    animation: fadeIn 5s ease-in-out forwards; /* Apply animation */
+    animation: fadeIn 2s ease-in-out forwards; /* Apply animation */
 }
 
 @keyframes fadeIn {
@@ -500,7 +500,7 @@
     }
 }
 .skills:hover {
-    animation: fadeIn 2s ease-in-out forwards; /* Apply animation */
+    animation: fadeIn 1s ease-in-out forwards; /* Apply animation */
 }
 @keyframes slideInFromLeft {
     0% {
@@ -965,4 +965,3 @@
 #mobile-menu{
     width: 100px;
 }
-
