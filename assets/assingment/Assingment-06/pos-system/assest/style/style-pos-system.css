@@ -1,0 +1,52 @@
+#nav-bar-section #nav-bar{
+    background-color: red;
+}
+#section1 #section1-div{
+    width: 87vw;
+    height: 100vh;
+    background-color: #7a418a;
+}
+.card-body{
+    background-color: #1b521a;
+}
+.card-body2{
+    background-color: #7a418a;
+}
+.text-customer{
+    color: #f1ecec;
+    font-size: 40px;
+}
+.modal-header{
+    background-color: #1b521a;
+    color: white;
+}
+#order-text{
+    color: #f1ecec;
+    text-align: center;
+}
+
+/*
+.table {
+    width: 100%; !* Set the width of the table to 100% of its container *!
+    border-collapse: collapse; !* Collapse borders between table cells *!
+}
+
+.table th, .table td {
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.table th {
+    background-color: black; !* Set background color for table header cells *!
+    color: black; !* Set text color for table header cells *!
+    text-align: left; !* Align text to the left in table header cells *!
+}
+
+.table td {
+    text-align: left; !* Align text to the left in table data cells *!
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: black; !* Set background color for even rows *!
+}
+*/

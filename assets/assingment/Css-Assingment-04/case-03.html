@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assingment-04-case-03</title>
+  <style>
+      :root{
+          --width:200px;
+          --height:80px;
+      }
+   div{
+     width:var(--width);
+     height:var(--height);
+     background-color: #ff253a;
+       border-radius: 8px;
+     animation:animi ;
+       animation-duration: 3s ;
+       animation-iteration-count: infinite;
+       animation-timing-function: linear;
+       animation-direction: alternate;
+
+   }
+   @keyframes animi {
+
+      0%{
+          margin-top: 0;
+          margin-left: 0;
+          background-color: #960c84;
+
+      }
+       25%{
+           margin-left: calc(100vw - 100px);
+           margin-top: 0;
+           background-color: deeppink;
+           transform: rotate(180deg);
+       }
+       50%{
+           margin-left: calc(100vw - 100px);
+           margin-top: calc(100vh - 80px);
+           background-color: #32ccc7;
+           transform: rotate(0deg);
+       }
+       75%{
+           margin-top: calc(100vh - 80px);
+           margin-left: 0;
+           background-color: indigo;
+           transform: rotate(-180deg);
+       }
+   }
+
+
+  </style>
+
+</head>
+<body>
+<div>
+
+</div>
+</body>
+</html>

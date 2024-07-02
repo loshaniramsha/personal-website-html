@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assingment-04-case-05</title>
+  <link rel="stylesheet" href="assets/normalize.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <style>
+      main{
+          width: 50vw;
+          height: 50vh;
+          border: 5px solid black;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          overflow: hidden;
+      }
+      section{
+          display: flex;
+          width: 200vw;
+          animation: animi;
+          animation-direction: alternate;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+      }
+    section>div{
+       width: 50vw;
+        height: 50vh;
+        background-color: deeppink;
+       /* border: 1px solid black;*/
+}
+   section>div:first-child{
+        background-image: url("assets/image/slide1.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+   section>div:nth-child(2){
+        background-image: url("assets/image/slide2.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    section>div:nth-child(3){
+        background-image: url("assets/image/slide3.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+   section>div:nth-child(4){
+        background-image: url("assets/image/slide4.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+   @keyframes animi {
+      0%,20%{
+          transform: translateX(0%);
+      }
+       25%,45%{
+           transform: translateX(-25%);
+       }
+       50%,70%{
+           transform: translateX(-50%);
+       }
+       75%,100%{
+           transform: translateX(-75%);
+       }
+
+   }
+
+  </style>
+
+
+</head>
+<body>
+<main>
+    <section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

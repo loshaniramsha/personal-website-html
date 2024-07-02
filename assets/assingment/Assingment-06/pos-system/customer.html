@@ -1,0 +1,209 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assest/style/style-pos-system.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+<section id="section1">
+    <!--nav-bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b>Techverse</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home-page.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="customer.html">Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="item.html">Item</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="order.html">Orders</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> <!--nav-bar-->
+    <!--form-->
+
+</section>
+
+<!--card-->
+<div class="card" style="width: 96rem; height: 90vh">
+    <div class="card-body">
+        <form>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-8">  <fieldset>
+                        <legend class="text-customer"><b>Customer</b></legend>
+                        <nav class="navbar bg-body-tertiary">
+                            <div class="container-fluid">
+                                <form class="d-flex" role="search">
+                                    <div class="input-group">
+                                        <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                                            <option selected>Search Customer...</option>
+                                            <option value="1">Loshani</option>
+                                            <option value="2">Mandakini</option>
+                                            <option value="3">Erandi</option>
+                                        </select>
+                                        <button class="btn btn-success" type="button">Search</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                        <div class="mb-3">
+                            <div class="form-check">
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                        <button type="button" class="btn btn-primary">Details</button>
+                        <button type="button" class="btn btn-success">Close</button>
+                        <br><br><br>
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">#Id</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Address</th>
+                                <th scope="col">Salary</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Loshani</td>
+                                <td>Horana</td>
+                                <td>200000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Mandakini</td>
+                                <td>Bentara</td>
+                                <td>250000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Erandi</td>
+                                <td>Panadura</td>
+                                <td>300000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </fieldset></div>
+                    <div class="col-4"><div class="d-grid gap-2 col-6 mx-auto">
+                        <br><br>
+                        <!-- Button trigger modal -->
+                        <br><br><br><br>
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Add
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdropLabel">New Customer</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="customer_id" class="form-label">Customer Id</label>
+                                                <input type="text" class="form-control" id="customer_id">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="customer_name" class="form-label">Customer Name</label>
+                                                <input type="text" class="form-control" id="customer_name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="customer_address" class="form-label">Customer Address</label>
+                                                <input type="text" class="form-control" id="customer_address">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="customer_salary" class="form-label">Customer Salary</label>
+                                                <input type="text" class="form-control" id="customer_salary">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                            <button class="btn btn-danger" type="button">Save</button>
+                                            <button class="btn btn-warning" type="button">Revew</button>
+                                            <button class="btn btn-primary" type="button">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <button class="btn btn-warning" type="button">View All Customer</button>
+                    </div></div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

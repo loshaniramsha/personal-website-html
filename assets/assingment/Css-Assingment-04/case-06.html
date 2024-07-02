@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assingment-04-case-06</title>
+    <link rel="stylesheet" href="assets/fontawesome-free-6.5.1-web/css/all.min.css">
+    <style>
+        body{
+            overflow: hidden;
+        }
+
+        #sky{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("assets/image/car/sky.jpg");
+            background-size: cover;
+            position: relative;
+        }
+
+        #city{
+            width: 200vw;
+            height: 35vh;
+            display: flex;
+
+            position: absolute;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            animation-name: my-animation;
+            animation-timing-function: ease-in-out;
+            animation-direction: initial;
+        }
+
+        #road{
+            width: 200vw;
+            height: 35vh;
+            display: flex;
+
+            position: absolute;
+            left: 0;
+            bottom: 0;
+
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            animation-name: my-animation;
+            animation-timing-function: ease-in-out;
+            animation-direction: initial;
+        }
+
+        #city>div{
+            width: 100vw;
+            height: 35vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #city>div:first-child{
+            background-image: url("assets/image/car/city.png");
+        }
+        #city>div:nth-child(2){
+            background-image: url("assets/image/car/city.png");
+        }
+
+        #road>div{
+            width: 100vw;
+            height: 35vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #road>div:first-child{
+            background-image: url("assets/image/car/road.jpg");
+        }
+        #road>div:nth-child(2){
+            background-image: url("assets/image/car/road.jpg");
+        }
+
+        #car{
+            background-image: url("assets/image/car/car.png");
+            background-size: cover;
+            background-position: center;
+
+            width: 20vw;
+            height: 15vh;
+            position: absolute;
+
+            top: 60vh;
+            left: 35vw;
+
+        }
+
+        #car>div{
+            width: 3.5vw;
+            height: 7vh;
+            position: absolute;
+
+            background-image: url("assets/image/car/wheel.png");
+            background-size: cover;
+            background-position: center;
+
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            animation-name: tire-animation;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate-reverse;
+        }
+
+        #car>div:first-child{
+            top: 66px;
+            left: 1.8vw;
+        }
+
+        #car>div:nth-child(2){
+            top: 66px;
+            left: 14vw;
+        }
+
+
+
+
+        @keyframes my-animation{
+
+            from{
+                transform: translateX(0);
+            }
+            to{
+                transform: translateX(-100vw);
+            }
+
+        }
+
+
+        @keyframes tire-animation{
+
+            from{
+                transform: rotate(360deg);
+            }
+            to{
+                transform: rotate(0deg);
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+<div id="sky"></div>
+
+<section id="city">
+    <div></div>
+    <div></div>
+</section>
+
+<section id="road">
+    <div></div>
+    <div></div>
+</section>
+
+<div id="car">
+    <div></div>
+    <div></div>
+</div>
+
+
+<script src="assets/fontawesome-free-6.5.1-web/js/all.min.js"></script>
+</body>
+</html>
